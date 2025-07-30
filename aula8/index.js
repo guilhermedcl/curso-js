@@ -1,0 +1,18 @@
+
+const nome = 'Guilherme';
+const sobrenome = 'do Carmo Larroide';
+const idade = 21;
+const peso = 80;
+const alturaEmM = 1.80; // Corrigido para metros (ao invés de cm)
+let indiceMassaCorporal; // peso / (altura * altura)
+let anoNascimento;
+
+indiceMassaCorporal = peso / (alturaEmM * alturaEmM);
+anoNascimento = 2025 - idade;
+
+
+// template strings
+
+console.log(`${nome} ${sobrenome} tem ${idade} anos, pesa ${peso} kg`);
+console.log(`tem ${alturaEmM} de altura e seu IMC é de ${indiceMassaCorporal}`);
+console.log(`${nome} nasceu em ${anoNascimento}.`);
