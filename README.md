@@ -25,7 +25,7 @@ Repositório com os exercícios e projetos desenvolvidos durante o curso [JavaSc
 
 ## ⚙️ Tecnologias utilizadas
 
-- JavaScript (ES6+)
+- JavaScript
 - Node.js e NPM
 - Express.js
 - MongoDB
